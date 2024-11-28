@@ -15,7 +15,7 @@ export default function Login({ setIsLoggedIn }) {
       return;
     }
     try {
-      const response = await axios.post("http://54.172.202.16/login", {
+      const response = await axios.post("http://localhost:3000/login", {
         username,
         password,
       });
